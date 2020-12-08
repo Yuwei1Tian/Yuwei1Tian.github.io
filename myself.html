@@ -303,6 +303,13 @@
       </span>
 
   
+    <span id="/myself.html" class="post-meta-item leancloud_visitors" data-flag-title="记录开博客的第一天" title="阅读次数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span class="leancloud-visitors-count"></span>
+    </span>
     <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
       <span class="post-meta-item-icon">
         <i class="far fa-eye"></i>
@@ -310,6 +317,20 @@
       <span class="post-meta-item-text">阅读次数：</span>
       <span id="busuanzi_value_page_pv"></span>
     </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/myself.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/myself.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
 </div>
 
         </div>
@@ -385,6 +406,7 @@
 
 
       
+    <div class="comments" id="valine-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -488,6 +510,9 @@
 
   
 
+  
+
+
 
   
 
@@ -502,4 +527,12 @@
 
 
 
-<script src="/bundle.js"></script></body></html>
+<script src="/bundle.js"></script><script>NexT.utils.loadComments('#valine-comments', () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
+    new Valine(Object.assign({
+      el  : '#valine-comments',
+      path: "/myself.html",
+    }, {"enable":true,"appId":"NknHbNDH2n3epfcP0TlRxW1v-gzGzoHsz","appKey":"XseL9razXmqlvnKX7ftXByEO","placeholder":"Just go go, say what you want","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"lang":null,"visitor":true,"comment_count":true,"recordIP":false,"serverURLs":null,"enableQQ":false,"requiredFields":[]}
+    ));
+  }, window.Valine);
+});</script></body></html>

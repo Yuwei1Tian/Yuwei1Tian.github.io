@@ -403,6 +403,9 @@
 
   
 
+  
+
+
 
   
 
@@ -417,4 +420,12 @@
 
 
 
-<script src="/bundle.js"></script></body></html>
+<script src="/bundle.js"></script><script>NexT.utils.loadComments('#valine-comments', () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
+    new Valine(Object.assign({
+      el  : '#valine-comments',
+      path: "/tags/reading/",
+    }, {"enable":true,"appId":"NknHbNDH2n3epfcP0TlRxW1v-gzGzoHsz","appKey":"XseL9razXmqlvnKX7ftXByEO","placeholder":"Just go go, say what you want","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"lang":null,"visitor":true,"comment_count":true,"recordIP":false,"serverURLs":null,"enableQQ":false,"requiredFields":[]}
+    ));
+  }, window.Valine);
+});</script></body></html>
