@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://github.com/Yuwei1Tian/Yuwei1Tian.github.io/%E6%B0%B4%E4%B8%8B%E5%9B%BE%E5%83%8F%E5%A4%8D%E5%8E%9F%E6%95%B0%E6%8D%AE%E9%9B%86.html</loc>
+    
+    <lastmod>2020-12-25</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://github.com/Yuwei1Tian/Yuwei1Tian.github.io/blog1.html</loc>
     
     <lastmod>2020-12-09</lastmod>
@@ -53,7 +60,7 @@
 
   <url>
     <loc>https://github.com/Yuwei1Tian/Yuwei1Tian.github.io</loc>
-    <lastmod>2020-12-09</lastmod>
+    <lastmod>2020-12-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -61,14 +68,21 @@
   
   <url>
     <loc>https://github.com/Yuwei1Tian/Yuwei1Tian.github.io/tags/reading/</loc>
-    <lastmod>2020-12-09</lastmod>
+    <lastmod>2020-12-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://github.com/Yuwei1Tian/Yuwei1Tian.github.io/tags/Congratulations/</loc>
-    <lastmod>2020-12-09</lastmod>
+    <lastmod>2020-12-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/Yuwei1Tian/Yuwei1Tian.github.io/tags/%E6%95%B0%E6%8D%AE%E9%9B%86/</loc>
+    <lastmod>2020-12-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -77,7 +91,14 @@
   
   <url>
     <loc>https://github.com/Yuwei1Tian/Yuwei1Tian.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2020-12-09</lastmod>
+    <lastmod>2020-12-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/Yuwei1Tian/Yuwei1Tian.github.io/categories/%E6%B0%B4%E4%B8%8B%E5%9B%BE%E5%83%8F%E5%A4%8D%E5%8E%9F/</loc>
+    <lastmod>2020-12-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
